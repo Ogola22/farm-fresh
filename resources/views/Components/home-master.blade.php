@@ -3,7 +3,7 @@
 <body>
 <head>
     <meta charset="utf-8">
-    <title>FarmFresh - Organic Farm Website Template</title>
+    <title>FarmFresh - Organic Farm</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -36,7 +36,7 @@
             <div class="col-lg-3">
                 <div class="d-flex align-items-center justify-content-start">
                     <i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
-                    <h2 class="mb-0">+012 345 6789</h2>
+                    <h2 class="mb-0">+254 70045899</h2>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -59,7 +59,7 @@
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    
+
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
         <a href="index.html" class="navbar-brand d-flex d-lg-none">
             <h1 class="m-0 display-4 text-secondary"><span class="text-white">Farm</span>Fresh</h1>
@@ -84,13 +84,13 @@
                     </div>
                 </div>
                 <a href="{{route('home.contact')}}" class="nav-item nav-link">Contact</a>
-                
+
                 @if(Auth::check())
                 <li class ="nav-item">
                     <a href="{{route('admin.index')}}" class="nav-link">Admin</a>
                 </li>
-                               
-                <!-- Logout functionality -->                
+
+                <!-- Logout functionality -->
                 <li class ="nav-item">
                     <a href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="nav-link">Logout</a>
                     <form action="{{route('logout')}}" method="post" id="logout-form" style="display: none;">
@@ -118,7 +118,7 @@
     @yield('content')
 
     <!-- Footer Start -->
-    
+
     <div class="container-fluid bg-footer bg-primary text-white mt-5">
         <div class="container">
             <div class="row gx-5">
@@ -187,7 +187,7 @@
     </div>
     <div class="container-fluid bg-dark text-white py-4">
         <div class="container text-center">
-            <p class="mb-0">&copy; <a class="text-secondary fw-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed by <a class="text-secondary fw-bold" href="https://htmlcodex.com">HTML Codex</a></p>
+            <p class="mb-0">&copy; <a class="text-secondary fw-bold" href="#">Farmfresh</a>. All Rights Reserved. Designed by <a class="text-secondary fw-bold" href="https://htmlcodex.com">Ochieng</a></p>
         </div>
     </div>
 

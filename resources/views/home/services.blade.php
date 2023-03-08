@@ -7,7 +7,7 @@
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h1 class="display-1 text-white mb-md-4">Our Services</h1>
-                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
+                    <a href="{{route('home.index')}}" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
                     <a href="" class="btn btn-secondary py-md-3 px-md-5">Services</a>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                         <h1 class="display-5">Organic Farm Services</h1>
                     </div>
                     <p class="mb-4">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et tempor sit. Clita erat ipsum et lorem et sit sed stet labore</p>
-                    <a href="" class="btn btn-primary py-md-3 px-md-5">Contact Us</a>
+                    <a href="{{route('home.contact')}}" class="btn btn-primary py-md-3 px-md-5">Contact Us</a>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-5">
