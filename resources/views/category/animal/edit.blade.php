@@ -19,8 +19,8 @@
             <form method="POST" action="{{route('animal.update',$animal->id)}}" class="contact100-form validate-form">
                 @csrf
                 @method('PUT')
-                <span class="contact100-form-title">Enter Animal Data</span>
-                
+                <span class="contact100-form-title">Animal Details</span>
+
                 <label for="name" class="contact100-form-label">{{_('name')}}</label>
                 <div class="wrap-input100 validate-input" data-validate="Please enter your name">
                     <input class="form-control input100 @error('name') is-invalid @enderror" id="name" type="text" name="name" value="{{$animal->name}}" placeholder="Enter Animal's breed" autocomplete="name" autofocus required>

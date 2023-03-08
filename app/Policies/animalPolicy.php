@@ -16,7 +16,7 @@ class animalPolicy
         //
         return $user->id === $animals->user_id
         ? Response::allow()
-        : Response::deny('You do not own this animal');
+        : Response::deny('Access Denied!');
 
     }
 
@@ -28,7 +28,7 @@ class animalPolicy
         //
         return $user->id === $animals->user_id
         ? Response::allow()
-        : Response::deny('You do not own this animal');
+        : Response::deny('Access Denied!');
     }
 
     /**
@@ -55,7 +55,7 @@ class animalPolicy
     {
         //
         return $user->id === $animals->user_id;
-        
+
     }
 
     /**
@@ -64,7 +64,7 @@ class animalPolicy
     public function restore(User $user, animals $animals): bool
     {
         //
-       
+
 
     }
 
@@ -74,7 +74,7 @@ class animalPolicy
     public function forceDelete(User $user, animals $animals): bool
     {
         //
-        
-                   
+
+
     }
 }

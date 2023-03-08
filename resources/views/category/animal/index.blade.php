@@ -31,16 +31,7 @@
           </tr>
         </thead>
 
-        <tfoot>
-          <tr>
-            <th>Animal ID</th>
-            <th>Animal Name</th>
-            <th>Quantity</th>
-            <th>Farmers note</th>
-            <th>Update</th>
-            <th>Delete</th>
-          </tr>
-        </tfoot>
+
 
         @foreach($animals as $animal)
         <tbody>
@@ -50,17 +41,18 @@
             <td>{{$animal->name}}</td>
             <td>{{$animal->quantity}}</td>
             <td>{{Str::Limit($animal->farmers_note,40,'...')}}</td>
-            
+
             <td>
             @can('update',$animal)
               <button class="btn btn-primary">
-                <a href="{{route('animal.edit',$animal->id)}}" class="text-light">update</a>
+                <a href="{{route('animal.edit',$animal->id)}}" class="text-decoration-none text-white">Update</a>
+
               </button>
             @endcan
-    
+
             </td>
-            
-            <td>                            
+
+            <td>
                 <form method="post" action="{{route('animal.destroy',$animal->id)}}" enctype="multipart/form-data">
                     @csrf
                     @method('DELETE')
