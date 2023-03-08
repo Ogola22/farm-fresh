@@ -22,7 +22,7 @@
             <div class="row gx-5">
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="d-flex h-100 border border-5 border-primary border-bottom-0 pt-4">
-                        <img class="img-fluid mt-auto mx-auto" src="img/about.png">
+                        <img class="img-fluid mt-auto mx-auto" src="{{asset('home_ui/img/about.png')}}">
                     </div>
                 </div>
                 <div class="col-lg-6 pb-5">
@@ -116,7 +116,7 @@
                     <div class="row g-0">
                         <div class="col-10">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                                <img class="img-fluid w-100" src="{{asset('home_ui/img/team-1.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
                                     <span class="text-white">Designation</span>
@@ -137,7 +137,7 @@
                     <div class="row g-0">
                         <div class="col-10">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="{{asset('home_ui/img/team-2.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
                                     <span class="text-white">Designation</span>
@@ -158,7 +158,7 @@
                     <div class="row g-0">
                         <div class="col-10">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid w-100" src="{{asset('home_ui/img/team-3.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
                                     <span class="text-white">Designation</span>

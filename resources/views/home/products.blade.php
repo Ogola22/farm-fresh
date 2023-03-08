@@ -22,17 +22,17 @@
                     <div class="col-lg-8 text-center text-lg-start">
                         <h1 class="dispaly-4 text-white mb-md-400">Add Product</h1>
                         <form action="{{route('category')}}" method="post">
-                            @csrf                            
-                                <div class="form-check">                                    
+                            @csrf
+                                <div class="form-check">
                                     <input class="form-check-input" type="radio" name="category" id="animal" value="animal">
                                     <label class="form-check-label" for="animal">animal</label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="category" id="crop" value="crop">
                                     <label class="form-check-label" for="crop">crop</label>
-                                </div>                              
-                                    <button class="btn btn-success" type="submit">Add Item</button>                                
-                            
+                                </div>
+                                    <button class="btn btn-success" type="submit">Add Item</button>
+
                         </form>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                         >
                             <img
                                 class="img-fluid mb-4"
-                                src="img/product-2.png"
+                                src="{{asset('home_ui/img/product-2.png')}}"
                                 alt=""
                             />
                             <h6 class="mb-3">Organic Vegetable</h6>
