@@ -19,8 +19,8 @@
             <form method="POST" action="{{route('animal.store')}}" class="contact100-form validate-form">
                 @csrf
                 <span class="contact100-form-title">Enter Animal Data</span>
-                
-                <label for="name" class="contact100-form-label">{{_('name')}}</label>
+
+                <label for="name" class="contact100-form-label">{{_('Name')}}</label>
                 <div class="wrap-input100 validate-input" data-validate="Please enter your name">
                     <input class="form-control input100 @error('name') is-invalid @enderror" id="name" type="text" name="name" placeholder="Enter Animal's breed" autocomplete="name" autofocus required>
                     @error('name')
@@ -30,7 +30,7 @@
                     @enderror
                 </div>
 
-                <label for="crop_duration" class="contact100-form-label">{{_('quantity')}}</label>
+                <label for="crop_duration" class="contact100-form-label">{{_('Quantity')}}</label>
                 <div class="wrap-input100 validate-input " data-validate="Crop Duration in Number of Days">
                     <input class="form-control input100 @error('quantity') is-invalid @enderror" id="quantity" type="number" name="quantity" placeholder="The number of animals you have" autocomplete="quantity" autofocus required>
                     @error('quantity')
@@ -40,7 +40,7 @@
                     @enderror
                 </div>
 
-                <label for="farmers_note" class="contact100-form-label">{{_('farmers_note')}}</label>
+                <label for="farmers_note" class="contact100-form-label">{{_('Farmers_note')}}</label>
                 <div class="wrap-input100 validate-input" data-validate="Please enter a farmers note about your animal">
                     <textarea class="form-control input100" name="farmers_note" placeholder="Your farmers_note" row="10"></textarea>
                     <span class="focus-input100"></span>
