@@ -78,6 +78,6 @@ class cropController extends Controller
      {
          $crop = \App\Models\crops::findorFail($id);
          $crop->delete();
-         return redirect()->route('crop.index')->with('delMsg', 'crop record deleted!');
+         return redirect()->route('crop.index')->with('delMsg', 'Crop record deleted successfully!');
      }
 }

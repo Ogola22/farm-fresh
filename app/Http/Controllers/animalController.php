@@ -21,10 +21,10 @@ class animalController extends Controller
 
     public function create()
     {
-        
+
         return view('category.animal.create');
     }
-    
+
     // store animal data
 
     public function store(Request $request)
@@ -34,23 +34,23 @@ class animalController extends Controller
             'quantity' => ['required','min:1','max:100'],
             'farmers_note' => ['required','min:2','max:255']
         ]);
-        
+
         $animal = new \App\Models\animals;
         $animal->user_id = auth()->user()->id;
         $animal->name = $request->name;
         $animal->quantity = $request->quantity;
         $animal->farmers_note = $request->farmers_note;
         $animal->save();
-        
+
         return redirect()->route('animal.index');
     }
-    
+
     // edit animal data
 
     public function edit($id)
     {
         $animal = \App\Models\animals::findorFail($id);
-        
+
         return view('category.animal.edit', ['animal'=>$animal]);
     }
 
@@ -64,14 +64,14 @@ class animalController extends Controller
             'quantity' => ['required','min:1','max:100'],
             'farmers_note' => ['required','min:2','max:255']
         ]);
-        
+
         $animal->user_id = auth()->user()->id;
         $animal->name = $request->name;
         $animal->quantity = $request->quantity;
         $animal->farmers_note = $request->farmers_note;
-        
+
         $animal->update();
-        
+
         return redirect()->route('animal.index')->with('updateMsg', 'Record successfully Updated');
     }
 
@@ -81,6 +81,6 @@ class animalController extends Controller
     {
         $animal = \App\Models\animals::findorFail($id);
         $animal->delete();
-        return redirect()->route('animal.index')->with('delMsg', 'animal record deleted!');
+        return redirect()->route('animal.index')->with('delMsg', 'Animal record deleted successfully');
     }
 }
