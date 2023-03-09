@@ -15,7 +15,7 @@
                                 <img class="img-fluid w-100" src="{{asset('home_ui/img/team-1.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
+                                    <span class="text-white">Farm Director</span>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@
                                 <img class="img-fluid w-100" src="{{asset('home_ui/img/team-2.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
+                                    <span class="text-white">Farm Manager</span>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                                 <img class="img-fluid w-100" src="{{asset('home_ui/img/team-3.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
+                                    <span class="text-white">Farm Manager</span>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                                 <img class="img-fluid w-100" src="{{asset('home_ui/img/team-2.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
+                                    <span class="text-white">Farm Manager</span>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                                 <img class="img-fluid w-100" src="{{asset('home_ui/img/team-3.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
+                                    <span class="text-white">Farm Manager</span>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                                 <img class="img-fluid w-100" src="{{asset('home_ui/img/team-1.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
+                                    <span class="text-white">Farm Manager</span>
                                 </div>
                             </div>
                         </div>

@@ -97,10 +97,14 @@
                         @csrf
                     </form>
                 </li>
+
+                <!-- login functionality -->
                 @else
                 <li class ="nav-item">
                     <a href="{{route('login')}}" class="nav-link">login</a>
                 </li>
+
+                <!-- register functionality -->
                 <li class ="nav-item">
                     <a href="{{route('register')}}" class="nav-link">register</a>
                 </li>
@@ -128,15 +132,15 @@
                             <h4 class="text-white mb-4">Get In Touch</h4>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-white me-2"></i>
-                                <p class="text-white mb-0">123 Street, New York, USA</p>
+                                <p class="text-white mb-0">00100, Garden City, Nairobi</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-white me-2"></i>
-                                <p class="text-white mb-0">info@example.com</p>
+                                <p class="text-white mb-0">farmfresh@gmail.com</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-white me-2"></i>
-                                <p class="text-white mb-0">+012 345 67890</p>
+                                <p class="text-white mb-0">+254 70045899</p>
                             </div>
                             <div class="d-flex mt-4">
                                 <a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>

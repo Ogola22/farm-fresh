@@ -381,7 +381,7 @@
                                 <img class="img-fluid w-100" src="{{asset('home_ui/img/team-1.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
+                                    <span class="text-white">Farm Manager</span>
                                 </div>
                             </div>
                         </div>
@@ -402,7 +402,7 @@
                                 <img class="img-fluid w-100" src="{{asset('home_ui/img/team-2.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
+                                    <span class="text-white">Farm Manager</span>
                                 </div>
                             </div>
                         </div>
@@ -423,7 +423,7 @@
                                 <img class="img-fluid w-100" src="{{asset('home_ui/img/team-3.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
+                                    <span class="text-white">Farm Manager</span>
                                 </div>
                             </div>
                         </div>
@@ -456,7 +456,7 @@
                         <img class="img-fluid" src="{{asset('home_ui/img/blog-1.jpg')}}" alt="">
                         <a class="blog-overlay" href="">
                             <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                            <span class="text-white fw-bold">Jan 01, 2050</span>
+                            <span class="text-white fw-bold">Farmfresh, 2023</span>
                         </a>
                     </div>
                 </div>
@@ -465,7 +465,7 @@
                         <img class="img-fluid" src="{{asset('home_ui/img/blog-2.jpg')}}" alt="">
                         <a class="blog-overlay" href="">
                             <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                            <span class="text-white fw-bold">Jan 01, 2050</span>
+                            <span class="text-white fw-bold">Farmfresh, 2023</span>
                         </a>
                     </div>
                 </div>
@@ -474,7 +474,7 @@
                         <img class="img-fluid" src="{{asset('home_ui/img/blog-3.jpg')}}" alt="">
                         <a class="blog-overlay" href="">
                             <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                            <span class="text-white fw-bold">Jan 01, 2050</span>
+                            <span class="text-white fw-bold">Farmfresh, 2023</span>
                         </a>
                     </div>
                 </div>
