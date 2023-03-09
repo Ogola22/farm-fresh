@@ -69,7 +69,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
-                <a href="{{route('home.index')}}" class="nav-item nav-link active">Home</a>
+                <a href="{{route('home.index')}}" class="nav-item nav-link">Home</a>
                 <a href="{{route('home.about')}}" class="nav-item nav-link">About</a>
                 <a href="{{route('home.services')}}" class="nav-item nav-link">Service</a>
                 <a href="{{route('home.products')}}" class="nav-item nav-link">Product</a>
