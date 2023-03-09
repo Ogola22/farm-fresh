@@ -11,4 +11,8 @@ class crops extends Model
     public function user(){
         return $this->belongsTo('User'::class);
     }
+
+    protected $fillable = [
+        'name', 'crop_duration', 'farmers_note'
+    ];
 }
