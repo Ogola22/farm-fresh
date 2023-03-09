@@ -78,7 +78,7 @@
                     <div class="dropdown-menu m-0">
                         <a href="{{route('home.blog')}}" class="dropdown-item">Blog Grid</a>
                         <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                        <a href="feature.html" class="dropdown-item">Features</a>
+                        <a href="{{asset('home.feature')}}" class="dropdown-item">Features</a>
                         <a href="team.html" class="dropdown-item">The Team</a>
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                     </div>

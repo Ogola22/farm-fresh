@@ -49,4 +49,8 @@ class HomeController extends Controller
     {
         return view('home.blog');
     }
+    public function feature()
+    {
+        return view('home.feature');
+    }
 }

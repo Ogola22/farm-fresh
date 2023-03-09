@@ -28,6 +28,7 @@ Route::get('/services', [App\Http\Controllers\HomeController::class, 'services']
 Route::get('/products', [App\Http\Controllers\HomeController::class, 'products'])->name('home.products');
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('home.contact');
 Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name('home.blog');
+Route::get('/feature', [App\Http\Controllers\HomeController::class, 'feature'])->name('home.feature');
 
 
 //Admin controllers
