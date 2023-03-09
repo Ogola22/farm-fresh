@@ -30,12 +30,12 @@ class HomeController extends Controller
     {
         return view('home.about');
     }
-    
+
     public function services()
     {
         return view('home.services');
     }
-    
+
     public function products()
     {
         return view('home.products');
@@ -44,5 +44,9 @@ class HomeController extends Controller
     public function contact()
     {
         return view('home.contact');
+    }
+    public function blog()
+    {
+        return view('home.blog');
     }
 }

@@ -23,14 +23,11 @@ Auth::routes();
 //Home controllers
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home.index');
-
 Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('home.about');
-
 Route::get('/services', [App\Http\Controllers\HomeController::class, 'services'])->name('home.services');
-
 Route::get('/products', [App\Http\Controllers\HomeController::class, 'products'])->name('home.products');
-
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('home.contact');
+Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name('home.blog');
 
 
 //Admin controllers

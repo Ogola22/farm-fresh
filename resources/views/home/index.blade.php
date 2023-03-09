@@ -24,7 +24,7 @@
                             <h1 class="display-1 text-white mb-md-4">Organic Vegetables For Healthy Life</h1>
                             <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Explore</a>
                             <a href="" class="btn btn-secondary py-md-3 px-md-5">Contact</a>
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -64,7 +64,7 @@
                         <p class="text-white">Dolor magna ipsum elitr sea erat elitr amet ipsum stet justo dolor, amet lorem diam no duo sed dolore amet diam</p>
                         <a class="text-white fw-bold" href="">Read More<i class="bi bi-arrow-right ms-2"></i></a>
                     </div>
-                </div>lib/owlcarousel/assets/owl.carousel.min.css
+                </div>
                 <div class="col-md-6">
                     <div class="bg-secondary bg-fruit d-flex flex-column justify-content-center p-5" style="height: 300px;">
                         <h3 class="text-white mb-3">Organic Fruits</h3>
@@ -164,7 +164,7 @@
         </div>
     </div>
     <!-- Facts End -->
-    
+
 
     <!-- Services Start -->
     <div class="container-fluid py-5">
