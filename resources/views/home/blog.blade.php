@@ -2,6 +2,7 @@
     @section('content')
         <!-- Blog Start -->
     <div class="container py-5">
+        <h2 class="text-skyblue text-center text-uppercase">Our Blog Posts</h2>
         <div class="row g-5">
             <!-- Blog list Start -->
             <div class="col-lg-8">
@@ -11,7 +12,7 @@
                             <img class="img-fluid" src="{{asset('home_ui/img/blog-1.jpg')}}" alt="">
                             <a class="blog-overlay" href="">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <span class="text-white fw-bold">Farmfresh, 2023</span>
                             </a>
                         </div>
                     </div>
@@ -20,7 +21,7 @@
                             <img class="img-fluid" src="{{asset('home_ui/img/blog-2.jpg')}}" alt="">
                             <a class="blog-overlay" href="">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <span class="text-white fw-bold">Farmfresh, 2023</span>
                             </a>
                         </div>
                     </div>
@@ -29,7 +30,7 @@
                             <img class="img-fluid" src="{{asset('home_ui/img/blog-3.jpg')}}" alt="">
                             <a class="blog-overlay" href="">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <span class="text-white fw-bold">Farmfresh, 2023</span>
                             </a>
                         </div>
                     </div>
@@ -38,7 +39,7 @@
                             <img class="img-fluid" src="{{asset('home_ui/img/blog-1.jpg')}}" alt="">
                             <a class="blog-overlay" href="">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <span class="text-white fw-bold">Farmfresh, 2023</span>
                             </a>
                         </div>
                     </div>
@@ -47,7 +48,7 @@
                             <img class="img-fluid" src="{{asset('home_ui/img/blog-2.jpg')}}" alt="">
                             <a class="blog-overlay" href="">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <span class="text-white fw-bold">Farmfresh, 2023</span>
                             </a>
                         </div>
                     </div>
@@ -56,7 +57,7 @@
                             <img class="img-fluid" src="{{asset('home_ui/img/blog-3.jpg')}}" alt="">
                             <a class="blog-overlay" href="">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <span class="text-white fw-bold">Farmfresh, 2023</span>
                             </a>
                         </div>
                     </div>
@@ -65,7 +66,7 @@
                             <img class="img-fluid" src="{{asset('home_ui/img/blog-1.jpg')}}" alt="">
                             <a class="blog-overlay" href="">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <span class="text-white fw-bold">Farmfresh, 2023</span>
                             </a>
                         </div>
                     </div>
@@ -74,7 +75,7 @@
                             <img class="img-fluid" src="{{asset('home_ui/img/blog-2.jpg')}}" alt="">
                             <a class="blog-overlay" href="">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <span class="text-white fw-bold">Farmfresh, 2023</span>
                             </a>
                         </div>
                     </div>
@@ -83,7 +84,7 @@
                             <img class="img-fluid" src="{{asset('home_ui/img/blog-3.jpg')}}" alt="">
                             <a class="blog-overlay" href="">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <span class="text-white fw-bold">Farmfresh, 2023</span>
                             </a>
                         </div>
                     </div>
@@ -92,7 +93,7 @@
                             <img class="img-fluid" src="{{asset('home_ui/img/blog-1.jpg')}}" alt="">
                             <a class="blog-overlay" href="">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <span class="text-white fw-bold">Farmfresh, 2023</span>
                             </a>
                         </div>
                     </div>
@@ -100,15 +101,15 @@
                         <nav aria-label="Page navigation">
                           <ul class="pagination pagination-lg justify-content-center m-0">
                             <li class="page-item disabled">
-                              <a class="page-link rounded-0" href="#" aria-label="Previous">
+                              <a class="page-link rounded-0" href="{{route('home.blog')}}" aria-label="Previous">
                                 <span aria-hidden="true"><i class="bi bi-arrow-left"></i></span>
                               </a>
                             </li>
-                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item active"><a class="page-link" href="{{route('home.blog')}}">1</a></li>
+                            <li class="page-item"><a class="page-link" href="{{route('home.blog')}}">2</a></li>
+                            <li class="page-item"><a class="page-link" href="{{route('home.blog')}}">3</a></li>
                             <li class="page-item">
-                              <a class="page-link rounded-0" href="#" aria-label="Next">
+                              <a class="page-link rounded-0" href="{{route('home.blog')}}" aria-label="Next">
                                 <span aria-hidden="true"><i class="bi bi-arrow-right"></i></span>
                               </a>
                             </li>
