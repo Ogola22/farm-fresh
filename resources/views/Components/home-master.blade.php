@@ -77,10 +77,10 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
                         <a href="{{route('home.blog')}}" class="dropdown-item">Blog Grid</a>
-                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                        <a href="{{asset('home.feature')}}" class="dropdown-item">Features</a>
-                        <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="{{route('home.detail')}}" class="dropdown-item">Blog Detail</a>
+                        <a href="{{route('home.feature')}}" class="dropdown-item">Features</a>
+                        <a href="{{route('home.team')}}" class="dropdown-item">The Team</a>
+                        <a href="{{route('home.testimonial')}}" class="dropdown-item">Testimonial</a>
                     </div>
                 </div>
                 <a href="{{route('home.contact')}}" class="nav-item nav-link">Contact</a>

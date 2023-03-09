@@ -29,6 +29,9 @@ Route::get('/products', [App\Http\Controllers\HomeController::class, 'products']
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('home.contact');
 Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name('home.blog');
 Route::get('/feature', [App\Http\Controllers\HomeController::class, 'feature'])->name('home.feature');
+Route::get('/detail', [App\Http\Controllers\HomeController::class, 'detail'])->name('home.detail');
+Route::get('/team', [App\Http\Controllers\HomeController::class, 'team'])->name('home.team');
+Route::get('/testimonial', [App\Http\Controllers\HomeController::class, 'testimonial'])->name('home.testimonial');
 
 
 //Admin controllers
