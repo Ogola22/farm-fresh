@@ -42,4 +42,42 @@ class cropController extends Controller
 
         return redirect()->route('crop.index');
     }
+     // edit crop data
+
+     public function edit($id)
+     {
+         $crop = \App\Models\crops::findorFail($id);
+
+         return view('category.crop.edit', ['crop'=>$crop]);
+     }
+
+     //update crop record
+
+     public function update(Request $request, $id)
+     {
+         $crop = \App\Models\crops::findorFail($id);
+         $request->validate([
+             'name' => ['required','min:2','max:100'],
+             'quantity' => ['required','min:1','max:100'],
+             'farmers_note' => ['required','min:2','max:255']
+         ]);
+
+         $crop->user_id = auth()->user()->id;
+         $crop->name = $request->name;
+         $crop->quantity = $request->quantity;
+         $crop->farmers_note = $request->farmers_note;
+
+         $crop->update();
+
+         return redirect()->route('crop.index')->with('updateMsg', 'Record successfully Updated');
+     }
+
+     //delete crop data
+
+     public function destroy($id)
+     {
+         $crop = \App\Models\crops::findorFail($id);
+         $crop->delete();
+         return redirect()->route('crop.index')->with('delMsg', 'crop record deleted!');
+     }
 }

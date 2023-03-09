@@ -33,11 +33,11 @@ Route::get('/products', [App\Http\Controllers\HomeController::class, 'products']
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('home.contact');
 
 
-//Admin controllers 
+//Admin controllers
 
 Route::get('/admin/index', [App\Http\Controllers\adminController::class, 'index'])->name('admin.index');
 
-//category controllers 
+//category controllers
 
 Route::post('/category', [App\Http\Controllers\categoryController::class, 'chooseCategory'])->name('category');
 
@@ -46,11 +46,15 @@ Route::post('/category', [App\Http\Controllers\categoryController::class, 'choos
 Route::get('/category/crop/create', [App\Http\Controllers\cropController::class, 'create'])->name('crop.create');
 Route::get('/category/crop/index', [App\Http\Controllers\cropController::class, 'index'])->name('crop.index');
 Route::post('/category/crop/create', [App\Http\Controllers\cropController::class, 'store'])->name('crop.store');
+Route::get('/category/crop/{id}/edit', [App\Http\Controllers\cropController::class, 'edit'])->name('crop.edit');
+Route::put('/category/crop/{id}', [App\Http\Controllers\cropController::class, 'update'])->name('crop.update');
+Route::delete('/category/crop/{id}/delete', [App\Http\Controllers\cropController::class, 'destroy'])->name('crop.destroy');
 
 //animal controllers
 Route::get('/category/animal/create', [App\Http\Controllers\animalController::class, 'create'])->name('animal.create');
 Route::get('/category/animal/index', [App\Http\Controllers\animalController::class, 'index'])->name('animal.index');
 Route::post('/category/animal/create', [App\Http\Controllers\animalController::class, 'store'])->name('animal.store');
 Route::get('/category/animal/{id}/edit', [App\Http\Controllers\animalController::class, 'edit'])->name('animal.edit');
+
 Route::put('/category/animal/{id}', [App\Http\Controllers\animalController::class, 'update'])->name('animal.update');
 Route::delete('/category/animal/{id}/delete', [App\Http\Controllers\animalController::class, 'destroy'])->name('animal.destroy');
