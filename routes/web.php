@@ -56,6 +56,5 @@ Route::get('/category/animal/create', [App\Http\Controllers\animalController::cl
 Route::get('/category/animal/index', [App\Http\Controllers\animalController::class, 'index'])->name('animal.index');
 Route::post('/category/animal/create', [App\Http\Controllers\animalController::class, 'store'])->name('animal.store');
 Route::get('/category/animal/{id}/edit', [App\Http\Controllers\animalController::class, 'edit'])->name('animal.edit');
-
 Route::put('/category/animal/{id}', [App\Http\Controllers\animalController::class, 'update'])->name('animal.update');
 Route::delete('/category/animal/{id}/delete', [App\Http\Controllers\animalController::class, 'destroy'])->name('animal.destroy');
